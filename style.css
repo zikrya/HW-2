@@ -1,0 +1,78 @@
+.flag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.flag > div {
+    flex: 1;
+}
+
+.red-threevert {
+    background-color: #ED2939;
+}
+
+#white {
+    background-color: #FFFFFF;
+}
+
+.light-blue-threevert {
+    background-color: #00A1DE;
+}
+.thai-red {
+    background-color: #B5002D;
+}
+.thai-blue {
+    background-color: #2E2A4C;
+    padding: 20px;
+}
+.horizflag {
+    width: 300px;
+    height: 200px;
+    display: flex-dir;
+}
+.horizflag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.horizflag > div {
+    flex: 1;
+}
+
+.roman-blue {
+    background-color: #002B7F;
+}
+
+.roman-yellow {
+    background-color: #FCD116;
+}
+
+.roman-red {
+    background-color: #CE1126;
+}
+.mex-green {
+    background-color: #006847; /* This is a common green color used in flags */
+}
+
+.mex-white {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center; /* These will center the image in the div */
+    align-items: center;
+}
+
+.mex-white img {
+    max-height: 100%; /* This will make sure the image doesn't exceed the div's dimensions */
+    max-width: 100%;
+}
+
+.mex-red {
+    background-color: #CE1126; /* This is a common red color used in flags */
+}
+
